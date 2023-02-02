@@ -30,7 +30,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'sequel',     '>= 3.2.0'
   s.add_development_dependency 'bacon'
 
-  s.has_rdoc = true
   s.homepage = "http://github.com/rtomayko/sinatra-sequel"
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Sinatra::Sequel"]
   s.require_paths = %w[lib]
